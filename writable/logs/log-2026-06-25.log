@@ -1,0 +1,55 @@
+DEBUG - 2026-06-25 08:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-25 08:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-25 08:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-25 08:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-25 08:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-25 08:27:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-25 08:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-25 08:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-25 08:28:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-06-25 08:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-06-25 16:58:21 --> ErrorException: Undefined variable $foto_background
+[Method: GET, Route: /]
+in APPPATH\Views\public\index.php on line 19.
+ 1 APPPATH\Views\public\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $foto_background', 'D:\\wamp64\\www\\portofolio\\app\\Views\\public\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\wamp64\\www\\portofolio\\app\\Views\\public\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1254): CodeIgniter\View\View->render('public/index', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('public/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\portofolio\\public\\index.php')
+CRITICAL - 2026-06-25 17:08:12 --> ErrorException: Undefined variable $foto_background
+[Method: GET, Route: /]
+in APPPATH\Views\public\index.php on line 19.
+ 1 APPPATH\Views\public\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $foto_background', 'D:\\wamp64\\www\\portofolio\\app\\Views\\public\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\wamp64\\www\\portofolio\\app\\Views\\public\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1254): CodeIgniter\View\View->render('public/index', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('public/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\portofolio\\public\\index.php')
+CRITICAL - 2026-06-25 17:08:20 --> ErrorException: Undefined variable $foto_background
+[Method: GET, Route: /]
+in APPPATH\Views\public\index.php on line 19.
+ 1 APPPATH\Views\public\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $foto_background', 'D:\\wamp64\\www\\portofolio\\app\\Views\\public\\index.php', 19)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\wamp64\\www\\portofolio\\app\\Views\\public\\index.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1254): CodeIgniter\View\View->render('public/index', [], true)
+ 5 APPPATH\Controllers\Home.php(31): view('public/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\wamp64\\www\\portofolio\\public\\index.php')
